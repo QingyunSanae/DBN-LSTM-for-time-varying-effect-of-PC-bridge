@@ -11,13 +11,11 @@
 
 ## 运行环境
 
-独立 conda 环境 `ml310`，**不再依赖 ComfyUI 的 venv**：
+独立 conda 环境 `ml310`
 
 - Python: `C:\Users\admin\.conda\envs\ml310\python.exe`（3.10.21）
-- torch 2.5.1+cu121（GPU，RTX 4060 Laptop，cuda 可用）
+- torch 2.5.1+cu121
 - numpy 2.2.6 / scikit-learn 1.7.2
-
-> 备用的 ComfyUI venv（`C:\Users\admin\ComfyUI\venv\`）仍可用，但别在里面装包。
 
 ## 文件结构
 
@@ -56,7 +54,6 @@ cd C:\Users\admin\Desktop\project\surrogate_pipeline
 ```
 
 > 这里写绝对路径而不是裸 `python`：本机裸 `python` 解析到 Windows Store 的 **Python 3.13**
-> （torch 2.7.1+**cpu**，仅 CPU），照抄会静默落到 CPU 上跑，慢很多且依赖版本对不上。
 
 ## 数据流
 
