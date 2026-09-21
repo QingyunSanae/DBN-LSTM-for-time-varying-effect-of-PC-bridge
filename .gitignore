@@ -1,0 +1,10 @@
+# 合成数据与训练产物：体积大，且都能由脚本重新生成
+# （1_generate_synthetic.py → 2_build_pca.py → 3_train_lstm.py）
+data/
+models/
+*.npz
+*.pt
+*.joblib
+
+__pycache__/
+*.pyc
