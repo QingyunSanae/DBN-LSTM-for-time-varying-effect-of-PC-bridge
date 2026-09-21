@@ -97,3 +97,4 @@ cd C:\Users\admin\Desktop\project\surrogate_pipeline
    （每个 case 存成 `(T, D)` 的场矩阵，D = 节点数 × 分量数）。
 3. 其余（PCA、训练、推理）**逻辑完全不变**，只需调整 `config.py` 里的
    `D_FIELD`（换成真实自由度，约 5 万 × 3）和 `K_U/K_S/K_D`（按方差率拐点选）。
+"# DBN-LSTM-for-time-varying-effect-of-PCB" 
